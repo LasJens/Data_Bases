@@ -1,0 +1,1 @@
+CREATE INDEX idx_ticket_passenger_flight ON Ticket (passenger_id, flight_number);

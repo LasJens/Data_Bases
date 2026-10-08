@@ -1,0 +1,1 @@
+CREATE INDEX idx_flight_dates_airports ON Flight (departure_time, arrival_time, departure_airport_code, arrival_airport_code);
